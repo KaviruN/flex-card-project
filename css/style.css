@@ -31,7 +31,7 @@ body {
 }
 
 .wrapper {
-  padding: 3em;
+  padding: 0 3em;
   background-color: hsla(227, 63%, 18%, 1);
   min-height: 100vh;
   display: flex;
