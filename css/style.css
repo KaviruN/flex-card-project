@@ -74,3 +74,14 @@ span{
 .bottom-para {
     width: 50px;
 }
+
+.bottom-btn {
+    width: 159px;
+    height: 44px;
+    align-self: center;
+    font-size: 1.25rem;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    color: hsla(227, 63%, 18%, 1);
+    background-color: hsla(188, 96%, 47%, 1);
+}
