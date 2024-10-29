@@ -1,4 +1,92 @@
+/* font-family: "Blinker", sans-serif; */
+/* "Source Code Pro", monospace; */
+
+
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+/* ----layout.css---- */
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    width: 100%;
+    background-image: url('/img/tech.jpg');
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+    padding: 3em;
+    background-color: hsla(227, 63%, 18%, 1);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content {
+    border: 2px solid white;
+}
+
+/* ----typography---- */
+
+.content-title {
+    font-family: "Blinker", sans-serif;
+    color: hsla(188, 96%, 47%, 1);
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+.content-para {
+    font-size: 1.125rem;
+    color: hsla(0, 0%, 100%, 1);
+}
+
+span{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.bottom-content {
+    border: 2px solid white;
+    color: hsla(0, 0%, 100%, 1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-para {
+    width: 50px;
+}
+
+.bottom-btn {
+    width: 159px;
+    height: 44px;
+    align-self: center;
+    font-size: 1.25rem;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    color: hsla(227, 63%, 18%, 1);
+    background-color: hsla(188, 96%, 47%, 1);
+    border: none;
+}
+
+.bottom-btn:hover,
+.bottom-btn:focus {
+    background-color: rgb(159, 240, 252);
 }
