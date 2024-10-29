@@ -59,6 +59,14 @@ html, body {
     color: hsla(0, 0%, 100%, 1);
 }
 
+span{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
 .bottom-content {
     border: 2px solid white;
+    color: hsla(0, 0%, 100%, 1);
+    display: flex;
+    justify-content: space-between;
 }
