@@ -38,9 +38,20 @@ html, body {
     margin: 0 auto;
 }
 
+.main-content {
+    border: 2px solid white;
+}
+
+/* ----typography---- */
+
 .content-title {
     font-family: "Blinker", sans-serif;
     color: hsla(188, 96%, 47%, 1);
     font-size: 2.7rem;
     font-weight: 700;
+}
+
+.content-para {
+    font-size: 1.125rem;
+    color: hsla(0, 0%, 100%, 1);
 }
