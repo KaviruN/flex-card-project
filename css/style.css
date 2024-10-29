@@ -32,6 +32,7 @@ html, body {
 }
 
 .wrapper {
+    padding: 4em 6em;
     background-color: hsla(227, 63%, 18%, 1);
     min-height: 100vh;
 }
