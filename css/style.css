@@ -39,9 +39,6 @@ html, body {
     justify-content: space-between;
 }
 
-.main-content {
-    border: 2px solid white;
-}
 
 /* ----typography---- */
 
@@ -63,7 +60,6 @@ span{
 }
 
 .bottom-content {
-    border: 2px solid white;
     color: hsla(0, 0%, 100%, 1);
     display: flex;
     justify-content: space-between;
