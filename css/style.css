@@ -84,4 +84,10 @@ span{
     font-weight: 700;
     color: hsla(227, 63%, 18%, 1);
     background-color: hsla(188, 96%, 47%, 1);
+    border: none;
+}
+
+.bottom-btn:hover,
+.bottom-btn:focus {
+    background-color: rgb(159, 240, 252);
 }
