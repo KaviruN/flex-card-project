@@ -18,7 +18,10 @@ html, body {
 .image-container {
     width: 100%;
     background-image: url('/img/tech.jpg');
-    min-height: 20vh;
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bg-image {
