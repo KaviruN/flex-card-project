@@ -27,7 +27,6 @@ html, body {
 }
 
 .bg-image {
-    width: 100%;
     object-fit: cover;
 }
 
@@ -89,4 +88,25 @@ span{
 .bottom-btn:hover,
 .bottom-btn:focus {
     background-color: rgb(159, 240, 252);
+}
+
+/* ----responsive.css---- */
+
+@media (min-width: 675px) {
+    .card{
+        flex-direction: row;
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .image-container{
+        width: 100%;
+    }
+    .content-title{
+        font-size: 3.5rem;
+    }
+    .content-para {
+        font-size: 1.9rem;
+    }
 }
