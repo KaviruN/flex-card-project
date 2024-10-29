@@ -36,6 +36,9 @@ html, body {
     background-color: hsla(227, 63%, 18%, 1);
     min-height: 100vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main-content {
@@ -54,4 +57,8 @@ html, body {
 .content-para {
     font-size: 1.125rem;
     color: hsla(0, 0%, 100%, 1);
+}
+
+.bottom-content {
+    border: 2px solid white;
 }
