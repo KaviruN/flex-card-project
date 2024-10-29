@@ -1,12 +1,14 @@
 /* font-family: "Blinker", sans-serif; */
-/* font-family: "Blinker", sans-serif; */
-
-
-
+/* "Source Code Pro", monospace; */
 
 
 html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+
+.card {
+    display: flex;
 }
