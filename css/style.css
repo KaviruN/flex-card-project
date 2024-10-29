@@ -19,7 +19,7 @@ body {
 
 .image-container {
   width: 100%;
-  background-image: url("https://raw.githubusercontent.com/KaviruN/flexbox-card/refs/heads/main/img/tech.jpg");
+  background-image: URL('https://raw.githubusercontent.com/KaviruN/flex-card-project/refs/heads/main/img/tech.jpg');
   min-height: 30vh;
   background-size: cover;
   background-position: center;
