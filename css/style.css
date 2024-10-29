@@ -70,3 +70,7 @@ span{
     display: flex;
     justify-content: space-between;
 }
+
+.bottom-para {
+    width: 50px;
+}
