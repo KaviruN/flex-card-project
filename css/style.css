@@ -35,3 +35,10 @@ html, body {
     background-color: hsla(227, 63%, 18%, 1);
     min-height: 100vh;
 }
+
+.content-title {
+    font-family: "Blinker", sans-serif;
+    color: hsla(188, 96%, 47%, 1);
+    font-size: 5rem;
+    font-weight: 700;
+}
