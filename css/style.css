@@ -106,4 +106,7 @@ span{
     .content-title{
         font-size: 3.5rem;
     }
+    .content-para {
+        font-size: 1.9rem;
+    }
 }
